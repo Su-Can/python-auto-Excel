@@ -16,7 +16,7 @@ print(newData_2)
 # 加一个交互
 a = input("是否确认？\nY/是；N/否（请输入大写）\n")
 if str(a) == "Y":
-    newData_2.to_excel(r"D:\wendang\python\test_1.xlsx", index=False)  #保存
+    newData_2.to_excel(r"D:\wendang\python\test_1.xlsx", index=False)   #保存：index=false意味着输出的表格不会带着dataframe的索引
     print(r'新建文件保存成功，路径为：D:\wendang\python\test_1.xlsx')
 else:
     print("好的再见")
