@@ -1,6 +1,5 @@
 # 引用 pandas
 import pandas as pd
-import numpy as np
 
 # 获取文件
 path = r"D:\wendang\python\test.xlsx"  # 文件路径
